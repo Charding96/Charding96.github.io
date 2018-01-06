@@ -1,24 +1,48 @@
 body{
     font-family:sans-serif;
-    background-color:#F0E19E;
-}
-h1{
-    color:#404969;
-}
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    background-color:whitesmoke;
+    font-family: "Lucida Console", Monaco, monospace;
+	font-weight: lighter;
 }
 
-.navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+header {
+	margin-bottom: 20px;
+	padding: 20px 40px;
+}
+
+@keyframes type { 50% 
+    { border-right-color: transparent; }
+}
+
+nav { 
+	float: right;
+	margin-top: 8px;
+    font-size: 20px;
+    color:#FEFF89;
+}
+
+a {
+	text-decoration: none;
+	color:#415865;
+}
+a:visited {
+	color:#415865;
+}
+a:focus {
+	outline: none;
+}
+
+.site-name {
+	display: inline;
+	border-right: solid 2px;
+	padding-right: 10px;
+	animation: type 1s infinite;
+    font-size: 20px;
+    color:#7A9EB1;
 }
 
 #banner { 
-    background-image:url("https://68.media.tumblr.com/3ba67e1fbb68cb5db236340cce0a23bc/tumblr_p0nltdmNI71w4f49to1_1280.jpg");
+    background-image:url("https://68.media.tumblr.com/0586ba42779c480ebdf981f5da002fb1/tumblr_p04q78uOfq1qccobxo1_1280.jpg");
     background-size: cover;
   background-position: bottom center;
   height: 700px;
@@ -26,9 +50,9 @@ h1{
 }
 
 #banner .content h1 {
-  font-family:fantasy;
+  font-family:monospace;
   font-size:80px;    
-  color:#FEFF89;
+  color:#F9F8EB;
   border: 3px solid white;
   position: relative;
   top: 50px;
@@ -46,7 +70,7 @@ h1{
 }
 
 p {
-  color: #FF9F68;
+  color: #F85959;
   font-size: 16px;
   line-height: 48px;
   margin-top: 60px;
