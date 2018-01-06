@@ -45,8 +45,15 @@ a:focus {
     background-image:url("https://68.media.tumblr.com/0586ba42779c480ebdf981f5da002fb1/tumblr_p04q78uOfq1qccobxo1_1280.jpg");
     background-size: cover;
   background-position: bottom center;
-  height: 700px;
-  width: 100%;
+  min-height: 100%;
+	min-height: 100vh;
+	padding-top: 65px;
+	position: relative;
+	z-index: 1;
+
+	-webkit-box-shadow: #000 0 7px 35px 0;
+	-moz-box-shadow: #000 0 7px 35px 0;
+	box-shadow: #000 0 7px 35px 0
 }
 
 #banner .content h1 {
@@ -62,18 +69,21 @@ a:focus {
 
 #main {
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
-  width: 400px;
-  height: 300px;
-  overflow: scroll;
+  width: 600px;
+  height: 550px;
+  
 }
 
 p {
-  color: #F85959;
-  font-size: 16px;
+  color: black;
+  font-size: 26px;
   line-height: 48px;
-  margin-top: 60px;
+  margin-top: 65px;
   padding: 10px 20px;
 }
-  
+
+.integers{
+    color:white;
+}  
