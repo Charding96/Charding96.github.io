@@ -85,4 +85,49 @@ p {
   padding: 10px 20px;
     
 }
+/*---------------------------------*/
+
+.project-wrapper {
+	/*margin: 2.5% 10%;*/
+	width: 80%;
+	margin: auto;
+	padding: 3% 0%;
+}
+.project {
+	width: 29%;
+	height: 300px;
+	float: left;
+	margin: 2%;
+	text-align: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-color: #1A1B20;
+}
+.project-info {
+	opacity: 0;
+	color: white;
+	height: 301px;
+	width: 100%;
+	margin: auto;
+	margin-top: -19px;
+}
+.project-info:hover {
+	opacity: 1;
+	background: #343638;
+}
+.project-info h2 {
+	padding-top: 40px;
+	font-size: 22px;
+}
+.project-info p {
+	padding: 0px 20px;
+	font-size: 18px;
+}
+iframe {
+	min-height: 1000vh;
+	width: 100%;
+	border: none;
+	display: none;
+}
 
