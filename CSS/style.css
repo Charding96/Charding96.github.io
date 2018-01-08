@@ -120,14 +120,9 @@ p {
 	padding-top: 40px;
 	font-size: 22px;
 }
-.project-info p {
-	padding: 0px 20px;
-	font-size: 18px;
+CCS_image{
+    background-image: url(http://i64.tinypic.com/eq48xk.png);
+    background-size: auto;
 }
-iframe {
-	min-height: 1000vh;
-	width: 100%;
-	border: none;
-	display: none;
-}
+
 
